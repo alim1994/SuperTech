@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68793" started-at="2020-05-19T21:21:19Z" finished-at="2020-05-19T21:22:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68793" started-at="2020-05-19T21:21:19Z" finished-at="2020-05-19T21:22:28Z">
+      <class name="tests.SuperTechPageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.SuperTechPageTest@25bbe1b6]" name="openBrowser" is-config="true" duration-ms="17800" started-at="2020-05-19T21:21:19Z" finished-at="2020-05-19T21:21:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="SuperTech()[pri:0, instance:tests.SuperTechPageTest@25bbe1b6]" name="SuperTech" duration-ms="21113" started-at="2020-05-19T21:21:37Z" finished-at="2020-05-19T21:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuperTech -->
+        <test-method status="PASS" signature="googleTest()[pri:0, instance:tests.SuperTechPageTest@25bbe1b6]" name="googleTest" duration-ms="10630" started-at="2020-05-19T21:21:58Z" finished-at="2020-05-19T21:22:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="iframeTest()[pri:0, instance:tests.SuperTechPageTest@25bbe1b6]" name="iframeTest" duration-ms="13188" started-at="2020-05-19T21:22:09Z" finished-at="2020-05-19T21:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iframeTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.SuperTechPageTest@25bbe1b6]" name="closeBrowser" is-config="true" duration-ms="5862" started-at="2020-05-19T21:22:22Z" finished-at="2020-05-19T21:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.SuperTechPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
