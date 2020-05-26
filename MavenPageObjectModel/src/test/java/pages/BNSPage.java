@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 
 
@@ -77,6 +78,12 @@ public class BNSPage{
 	WebElement Submitbutton;
 	public void clickOnSubmitbutton() {
 		Submitbutton.click();
+	}
+	@FindBy(how=How.XPATH, using="//*[contains(text(), 'Submitted')]")
+	WebElement sumbmitText;
+	public void verifyTextmessage(String mess) {
+		String actualText=sumbmitText.getText();
+		Assert.assertEquals(actualText, mess);
 	}
 	
 }

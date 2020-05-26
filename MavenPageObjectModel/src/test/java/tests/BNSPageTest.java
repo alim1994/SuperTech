@@ -30,8 +30,8 @@ public class BNSPageTest extends BaseClass{
 		bnsp.clickOnDLcheckbox();
 		bnsp.clickOnSubmitbutton();
 		Thread.sleep(4000);
-		SubmitPage submp=PageFactory.initElements(driver, SubmitPage.class);
-		submp.verifyTextmessage("Submitted Form Data");
+		
+		bnsp.verifyTextmessage("Submitted Form Data");
 	}
 
 }
