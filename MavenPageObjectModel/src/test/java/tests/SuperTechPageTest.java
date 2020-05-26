@@ -30,7 +30,7 @@ public class SuperTechPageTest extends BaseClass{
 	GooglePage gop=PageFactory.initElements(driver, GooglePage.class);
 	gop.enterInSearchbox("Coronoa");
 	
-	Thread.sleep(4000);
+	Thread.sleep(3000);
 	ArrayList<String>supertab=new ArrayList<String>(driver.getWindowHandles());
 	driver.switchTo().window(supertab.get(0));
 	}	
@@ -39,7 +39,7 @@ public class SuperTechPageTest extends BaseClass{
 		SuperTechPage stp=PageFactory.initElements(driver, SuperTechPage.class);
 		stp.enterEiframeFName("Alim");
 		stp.clickOnDownload();
-		Thread.sleep(4000);
+		Thread.sleep(3000);
 	}
 		
 	
