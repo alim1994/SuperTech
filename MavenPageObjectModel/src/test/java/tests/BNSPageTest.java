@@ -30,7 +30,6 @@ public class BNSPageTest extends BaseClass{
 		bnsp.clickOnDLcheckbox();
 		bnsp.clickOnSubmitbutton();
 		Thread.sleep(4000);
-		
 		bnsp.verifyTextmessage("Submitted Form Data");
 	}
 
