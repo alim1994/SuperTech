@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="105981" started-at="2020-06-09T22:22:19Z" finished-at="2020-06-09T22:24:05Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@1e127982]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="105981" started-at="2020-06-09T22:22:19Z" finished-at="2020-06-09T22:24:05Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@1e127982]" name="setUpClass" is-config="true" duration-ms="239" started-at="2020-06-09T22:22:19Z" finished-at="2020-06-09T22:22:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@1e127982]" name="runScenario" duration-ms="7917" started-at="2020-06-09T22:22:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-09T22:22:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Height and No Weight"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["BMI Calculator Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@1e127982]" name="runScenario" duration-ms="6414" started-at="2020-06-09T22:22:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-09T22:22:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["No Height and Weight"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["BMI Calculator Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@1e127982]" name="runScenario" duration-ms="6428" started-at="2020-06-09T22:22:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-09T22:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Category Normal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["BMI Calculator Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@1e127982]" name="runScenario" duration-ms="6324" started-at="2020-06-09T22:22:40Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-09T22:22:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Category Overweight"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["BMI Calculator Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@1e127982]" name="runScenario" duration-ms="6710" started-at="2020-06-09T22:22:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-09T22:22:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Category Underweight"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["BMI Calculator Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@1e127982]" name="runScenario" duration-ms="6412" started-at="2020-06-09T22:22:53Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-09T22:22:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Category Obesity"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["BMI Calculator Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@1e127982]" name="runScenario" duration-ms="18576" started-at="2020-06-09T22:22:59Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-09T22:23:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Fill up bns registration form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Fill up BNS registration form"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@1e127982]" name="runScenario" duration-ms="10625" started-at="2020-06-09T22:23:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-09T22:23:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["valid payee and No amount"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Fund Transfer functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@1e127982]" name="runScenario" duration-ms="11235" started-at="2020-06-09T22:23:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-09T22:23:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["valid payee and valid amount"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Fund Transfer functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@1e127982]" name="runScenario" duration-ms="12270" started-at="2020-06-09T22:23:40Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-09T22:23:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["valid payee and Invalid amount"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Fund Transfer functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@1e127982]" name="runScenario" duration-ms="11946" started-at="2020-06-09T22:23:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-09T22:24:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Invalid payee and valid amount"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Fund Transfer functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@1e127982]" name="tearDownClass" is-config="true" duration-ms="745" started-at="2020-06-09T22:24:04Z" finished-at="2020-06-09T22:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

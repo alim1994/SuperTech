@@ -15,7 +15,7 @@ public class FundTransferPageTest extends BaseClass {
 		
 		driver.get("file:///C:/ITTraining/WebSite/WebSite/JavaScript/FundTransfer.html");
 		ftp.selectPayee("Jim");
-		ftp.enterAmount(" ");
+		ftp.enterAmount("");
 		Thread.sleep(3000);
 		ftp.clickOnTransfer();
 		ftp.verifyBalance("5000.00");
