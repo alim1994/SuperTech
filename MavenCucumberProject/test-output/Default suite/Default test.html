@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>16/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jun 09 18:22:19 EDT 2020</td>
+<td>Started on:</td><td>Thu Jun 11 16:55:32 EDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>105 seconds (105981 ms)</td>
+<tr><td>Total time:</td><td>414 seconds (414921 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,38 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Fill up bns Login form", "Fill up BNS Login  form"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: May
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ALIM&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at pages.BNSPage.selectDay(BNSPage.java:48)
+	at step.BNSMultipledataStep.user_Select_month_day_year(BNSMultipledataStep.java:29)
+	at ?.User Select month &quot;Jan&quot; day &quot;May&quot; year &quot;2003&quot;(file:src/test/resources/Features/BNSMultipledata.feature:9)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1558133170", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1558133170'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: May
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ALIM&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at pages.BNSPage.selectDay(BNSPage.java:48)
+	at step.BNSMultipledataStep.user_Select_month_day_year(BNSMultipledataStep.java:29)
+	at ?.User Select month &quot;Jan&quot; day &quot;May&quot; year &quot;2003&quot;(file:src/test/resources/Features/BNSMultipledata.feature:9)
+</pre></div></td>
+<td>37</td>
+<td>runner.TestRunner@1e127982</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -77,52 +109,77 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Height and No Weight", "BMI Calculator Functionality"</td>
 <td></td>
-<td>7</td>
+<td>19</td>
 <td>runner.TestRunner@1e127982</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "No Height and Weight", "BMI Calculator Functionality"</td>
 <td></td>
-<td>6</td>
+<td>10</td>
 <td>runner.TestRunner@1e127982</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Category Normal", "BMI Calculator Functionality"</td>
 <td></td>
-<td>6</td>
+<td>10</td>
 <td>runner.TestRunner@1e127982</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Category Overweight", "BMI Calculator Functionality"</td>
 <td></td>
-<td>6</td>
+<td>9</td>
 <td>runner.TestRunner@1e127982</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Category Underweight", "BMI Calculator Functionality"</td>
 <td></td>
-<td>6</td>
+<td>9</td>
 <td>runner.TestRunner@1e127982</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Category Obesity", "BMI Calculator Functionality"</td>
 <td></td>
-<td>6</td>
+<td>9</td>
+<td>runner.TestRunner@1e127982</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Fill up bns Login form", "Fill up BNS Login  form"</td>
+<td></td>
+<td>44</td>
+<td>runner.TestRunner@1e127982</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Fill up bns Login form", "Fill up BNS Login  form"</td>
+<td></td>
+<td>41</td>
+<td>runner.TestRunner@1e127982</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Fill up bns Login form", "Fill up BNS Login  form"</td>
+<td></td>
+<td>39</td>
+<td>runner.TestRunner@1e127982</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Fill up bns Login form", "Fill up BNS Login  form"</td>
+<td></td>
+<td>45</td>
+<td>runner.TestRunner@1e127982</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Fill up bns Login form", "Fill up BNS Login  form"</td>
+<td></td>
+<td>38</td>
 <td>runner.TestRunner@1e127982</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Fill up bns registration form", "Fill up BNS registration form"</td>
 <td></td>
-<td>18</td>
+<td>39</td>
 <td>runner.TestRunner@1e127982</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "valid payee and No amount", "Fund Transfer functionality"</td>
 <td></td>
-<td>10</td>
+<td>16</td>
 <td>runner.TestRunner@1e127982</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "valid payee and valid amount", "Fund Transfer functionality"</td>
 <td></td>
-<td>11</td>
+<td>13</td>
 <td>runner.TestRunner@1e127982</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "valid payee and Invalid amount", "Fund Transfer functionality"</td>
 <td></td>
-<td>12</td>
+<td>15</td>
 <td>runner.TestRunner@1e127982</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Invalid payee and valid amount", "Fund Transfer functionality"</td>
