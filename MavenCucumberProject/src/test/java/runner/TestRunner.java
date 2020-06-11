@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
 		},
 		features= {"src/test/resources/Features"},
 		glue= {"step"},
-		tags= {"@FundTransfer, @BMI, @BNS" } //feature tags
+		tags= {"@FundTransfer, @BMI, @BNS, @BNSMultipleData" } //feature tags
 		
 		
 		//tags= {"@CategoryNormal, @CategoryOverweight, @validpayeeandValidamount, @BNSPage"} //scenario tags
